@@ -18,6 +18,7 @@ end
 
 def find_the_cheese(cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheeses.find do {|cheese_maybe| cheese_maybe == cheese_types ? p cheese_maybe}
+  cheeses.find do |cheese_maybe|
+    cheese_maybe == cheese_types
 end
 end
