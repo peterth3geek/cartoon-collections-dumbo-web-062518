@@ -13,10 +13,11 @@ end
 def long_planeteer_calls(calls)
   calls.any? do |call|
     call.length > 4
-  end  
+  end
 end
 
 def find_the_cheese(cheeses)
-  # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  cheeses.find do |cheese_maybe|
+  cheese_maybe == cheese_types
 end
