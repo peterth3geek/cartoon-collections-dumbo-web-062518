@@ -19,6 +19,12 @@ end
 def find_the_cheese(cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheeses.find do |cheese_maybe|
-    cheese_maybe == cheese_types[0..2]
+    if cheese_maybe == cheese_types[0]
+      p "#{cheese_types[0]}"
+    elsif cheese_maybe == cheese_types[1]
+      p "#{cheese_types[1]}"
+    elsif cheese_maybe == cheese_types[2]
+      p "#{cheese_types[2]}"
+    end
 end
 end
