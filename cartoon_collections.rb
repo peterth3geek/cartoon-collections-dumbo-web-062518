@@ -21,3 +21,4 @@ def find_the_cheese(cheeses)
   cheeses.find do |cheese_maybe|
   cheese_maybe == cheese_types
 end
+end
