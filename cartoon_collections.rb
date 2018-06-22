@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(elements)
   elements.each do |element|
-    puts "#{element.upcase}!"
+    puts "#{element.capitalize}!"
   end
 end
 
